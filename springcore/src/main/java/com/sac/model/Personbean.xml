@@ -6,7 +6,7 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans  
                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
   
-<bean id="person" class="com.sac.model.Person">  
+<bean id="person" class="com.sac.model.Person" lazy-init="true">  
 <property name="pid" value="1"/>
 <property name="pname" value="Vimal Jaiswal"></property>
 <property name="designation" value="Employee"/>

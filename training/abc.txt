@@ -1,0 +1,6 @@
+Hello this is from PrintWriter
+34
+45.9
+Hello this is from  second PrintWriter
+35
+46.9
