@@ -33,6 +33,7 @@
 </constructor-arg>
 
 <constructor-arg name="address" ref="add">
+<ref bean="add"/>
 </constructor-arg>
   
 </bean>  
